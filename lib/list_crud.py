@@ -9,7 +9,8 @@ def add_element_to_end_of_list(l, element):
     return l
 
 def add_element_to_start_of_list(l, element):
-    return None
+    l.insert(0, element)
+    return l
 
 def remove_element_from_end_of_list(l):
     return None
