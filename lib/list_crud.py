@@ -12,13 +12,13 @@ def add_element_to_start_of_list(l, element):
     l.insert(0, element)
     return l
 
-
 def remove_element_from_end_of_list(l):
     l.remove(4)
     return l
 
 def remove_element_from_start_of_list(l):
-    return None
+    del l[0]
+    return l 
 
 def retrieve_first_element_from_list(l):
     return None
